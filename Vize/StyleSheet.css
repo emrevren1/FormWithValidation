@@ -1,0 +1,78 @@
+﻿body {
+    background-color: #ededed;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.my-form .input-box {
+    padding-top: 15px;
+}
+.my-form h2 {
+    text-align: center;
+}
+.my-form .input-box .input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.my-form .input-box .input .label {
+    margin-right: 10px;
+    min-width: 110px;
+}
+.my-form .input-box .input input {
+    padding: 5px 10px;
+    width: 100%;
+}
+.my-form .input-box .message span {
+    color: red;
+    font-size: 13px;
+    margin-left: 120px;
+}
+#ListBox1 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: .25rem;
+    padding: 20px;
+    min-height: 150px;
+    width: 100%;
+}
+#Button1 {
+    background-color: transparent;
+    padding: 15px 32px;
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+#Button2 {
+    background-color: transparent;
+    padding: 15px 32px;
+    background-color: white;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+.your-password {
+    background-color: transparent;
+    padding: 14px 32px;
+    background-color: white;
+    color: #f44336;
+    border: 2px solid #f44336;
+    border-radius: .25rem;
+    width: 100%;
+}
+    .your-password #Label14 {
+        font-weight: 700;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
